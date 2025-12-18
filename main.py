@@ -120,6 +120,7 @@ def start(message):
         "btc 65000\n"
         "eth 3500\n"
         "sol 150"
+        "Developed by yash"
     )
 
 @bot.message_handler(func=lambda message: True)
@@ -172,3 +173,4 @@ threading.Thread(target=price_checker, daemon=True).start()
 
 print("🤖 Bot is running...")
 bot.infinity_polling()
+
