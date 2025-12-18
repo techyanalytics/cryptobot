@@ -119,7 +119,7 @@ def start(message):
         "Set price alert like this:\n"
         "btc 65000\n"
         "eth 3500\n"
-        "sol 150"
+        "sol 150\n"
         "Developed by yash"
     )
 
@@ -173,4 +173,5 @@ threading.Thread(target=price_checker, daemon=True).start()
 
 print("🤖 Bot is running...")
 bot.infinity_polling()
+
 
